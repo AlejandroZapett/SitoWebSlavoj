@@ -37,3 +37,45 @@ footer {
 	margin-top: 10px; 
 	background-color: #FFDEAD
 }
+.color_biografia {
+	opacity: 0.8;
+	background-color: wheat;
+	height: 200px;
+	padding: 10px;
+	padding-left: 50px;
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bio {
+	background-image:  url("https://s-media-cache-ak0.pinimg.com/600x315/cf/57/4f/cf574f6af838ddc54bd556ad128eb3b2.jpg");
+	background-repeat: repeat-y; 
+	background-position: right top;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.fondo_blanco {
+	background-color: wheat;
+	opacity: .95;
+}
+.text{
+	margin:50px;
+	padding: 50px;
+	background-color: white;
+	opacity: 1;
+}
+.border_4 {
+	border-left: 1px solid black;
+	padding-right: 25px;
+}
+.bio_link {
+	background-color: black;
+	color: white;
+	text-decoration-color: white;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.nav_1 {
+	margin: 0;
+}
