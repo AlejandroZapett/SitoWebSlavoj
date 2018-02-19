@@ -10,11 +10,13 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/miestilo.css">
+    <link rel="shortcut icon" type="text/css" href="media/favicon.ico">
 </head>
-<body>
+<body class="multi">
 
-    <!-- Código extraído de w3s -->
-    <div class="container">
+  <div style="background-color: black;">
+     <!-- Código extraído de w3s -->
+ <div class="container">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -27,26 +29,23 @@
     <div class="carousel-inner">
 
       <div class="item active">
-        <a href="#video1"><img src="media/zizek_7.jpg" alt="Los Angeles" style="width:100%;"></a>
+        <a href="#video2"><img src="media/zizek_7.jpg" alt="Los Angeles" style="width:100%;"></a>
         <div class="carousel-caption">
-          <h3>Los Angeles</h3>
-          <p>LA is always so much fun!</p>
+          <h3>The pervert´s guide to idiology</h3>
         </div>
       </div>
 
       <div class="item">
-        <a href="#"><img src="media/zizek_8.jpg" alt="Chicago" style="width:100%;"></a>
+        <a href="#video3"><img src="media/zizek_8.jpg" alt="Chicago" style="width:100%;"></a>
         <div class="carousel-caption">
-          <h3>Chicago</h3>
-          <p>Thank you, Chicago!</p>
+          <h3>Just think!</h3>
         </div>
       </div>
     
       <div class="item">
-        <a href=""><img src="media/zizek_9.jpg" alt="New York" style="width:100%;"></a>
+        <a href="#video1"><img src="media/zizek_9.jpg" alt="New York" style="width:100%;"></a>
         <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>We love the Big Apple!</p>
+          <h3>Fake news</h3>
         </div>
       </div>
   
@@ -62,7 +61,10 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-</div>
+</div> 
+  </div>
+
+     
 <nav class="navbar navbar-inverse navbar-static-top fixed" role="navigation" style="position: sticky; top: 0">
             <div class="container">
                 <div class="navbar-header">
@@ -78,47 +80,82 @@
                 <div class="collapse navbar-collapse" id="menuCurso">
                 <ul class="nav navbar-nav">
                     <li class=""><a href="index.html">Home</a></li>
-                    <li><a href="historia.html">Biografía</a></li>
+                    <li><a href="historia.html">Biography</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Links<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="articles.html">Artículos</a></li>
-                                <li class="active"><a href="#">Videos</a></li>
+                                <li><a href="articles.html">Articles</a></li>
+                                <li class="disabled"><a href="#">Videos</a></li>
                                 <li class="divider"></li>
                             </ul>
                         </li>
-                    <li><a href="contacto.hmtl">Contacto</a></li>
+                    <li><a href="contacto.html">Contact</a></li>
                 </ul>
                 </div>
             </div>
         </nav>
+        <div class="container">
+          <div class="row">
+          <div class="col-md-9">
+            <div class="video-cont-2" align="center" style="margin-bottom: 5px;">
+                <iframe width="100%" height="400"
+                  src="https://www.youtube.com/embed/k2x8TC-zXio?autoplay=1" id="video1">
+                </iframe>
+                <h3>Just Think!</h3>
+            </div>
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/k2x8TC-zXio?autoplay=1" id="video1">
-</iframe>
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/5Ch5ZCGi0PQ">
-</iframe>
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/ByKXcIPi7M">
-</iframe>
-
-
-
-                <nav align="center">
-                    <div class="center-block">
-                        <ul class="pagination">
-                            <li class="disabled"><a href="#" style="border-color: black">&laquo; <span class="sr-only">Anterior</span></a></li>
-                            <li class="active"><a href="#" style="background-color: #FFDEAD; border-color: black; color: black">1</a></li>
-                            <li class="active"><a href="#" style="background-color: #FFDEAD; border-color: black; color: black">2</a></li>
-                            <li class="active"><a href="#" style="background-color: #FFDEAD; border-color: black; color: black">3</a></li>
-                            <li class=""><a href="#" style="border-color: black">&raquo; <span class="sr-only">Siguinte</span></a></li>
-                        </ul>
+            <div class="video-cont-2" align="center" style="margin-bottom: 5px;">
+          <iframe width="100%" height="400"
+          src="https://www.youtube.com/embed/5Ch5ZCGi0PQ" id="video2" class="pull-right">
+          </iframe>
+          <h3>The pervert`s guide to idiology</h3>
+            </div>
+          
+            <div class=" video-cont-2" align="center" style="margin-bottom: 5px;">
+               <iframe width="100%" height="400"
+              src="https://www.youtube.com/embed/ByKXcIPi7M" id="video3">
+              </iframe>
+              <h3>Fake news</h3>
+            </div>
+        </div>
+          <aside class="col-md-2 hidden-xs hidden-sm border_3">
+                    <h3>Slavoj Žižek</h3>
+                    <div class="list-goup">
+                        <a href="historia.html" class="list-group-item bio_link">Biography</a>
+                        <a href="contacto.html" class="list-group-item bio_link">Contact</a>
+                        <a href="multimedia.html" class="list-group-item bio_link">Videos</a>
+                        <a href="articles.html" class="list-group-item bio_link">Articles</a>
                     </div>
-                </nav>
+                    <h4>Quotes</h4>
+                    <p>“In other words, who dares to strike today,when having the security of a permanent job is itself becoming a privilege?” </p>
+                    <p>“Come on. I don't have any problem violating my own insights in practice.”</p>
+                    <p>“as soon as we renounce fiction and illusion, we lose reality itself; the moment we subtract fictions from reality, reality itself loses its discursive-logical consistency.”</p>
+                </aside>
+        </div>
+        </div>
+        
 
 
-            <footer align="center"><h1>I WOULD PREFER NOT TO</h1></footer>
+        
+
+
+
+
+          <nav align="center" style="background-color: black;">
+          <div class="center-block">
+            <ul class="pagination">
+              <li class="artciles.html"><a href="#" style="border-color: black; background-color: white; color: black;">&laquo; <span class="sr-only">Anterior</span></a></li>
+              <li class="active"><a href="historia.html" style="background-color: #FFDEAD; border-color: black; color: black">1</a></li>
+              <li class="active"><a href="articles.html" style="background-color: #FFDEAD; border-color: black; color: black">2</a></li>
+              <li class="disabled"><a href="#" style="background-color: #FFDEAD; border-color: black; color: black">3</a></li>
+              <li class="active"><a href="contacto.html" style="background-color: #FFDEAD; border-color: black; color: black">4</a></li>
+              <li class=""><a href="contacto.html" style="border-color: black background-color: white; color: black;">&raquo; <span class="sr-only">Siguiente</span></a></li>
+            </ul>
+          </div>
+        </nav>
+
+
+            <footer align="center" style="margin: 0;"><h1>I WOULD PREFER NOT TO</h1></footer>
 
 	<script src="js/jquery.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>

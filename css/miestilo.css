@@ -2,6 +2,10 @@
 	max-width: 100%;
     height: auto;
 }
+.fixed {
+	position: sticky;
+	top: 0;
+}
 .border_1 {
 	border: 1px solid black;
 	border-top: 0;
@@ -78,4 +82,59 @@ footer {
 }
 .nav_1 {
 	margin: 0;
+}
+.art  {
+	background-image: url(http://www.critical-theory.com/wp-content/uploads/2013/07/zizek-perverts-guide-645x372.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+#espacio {
+	height: 200px;
+}
+.link_color a {
+	color: wheat;
+	margin: 2px;
+}
+.multi {
+	background-color: white;
+}
+.video-cont {
+	background-color: white;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.video-cont-2 {
+	background-color: white;
+	padding: 20px;
+	border: 1px solid black;
+}
+.contact_img {
+	border-radius: 50%;
+	width: 100%;
+	margin: 5px;
+	margin-top: 50px;
+}
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+}
+.border_6 {
+	padding-top: 20px;
+}
+#img_contact {
+	width: 100%;
+}
+.foto_bio {
+	width: 30%;
+	margin: 5px;
+
+}
+.text p {
+	text-align: justify;
 }

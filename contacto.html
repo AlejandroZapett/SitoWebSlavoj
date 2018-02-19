@@ -9,8 +9,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/miestilo.css">
+    <link rel="shortcut icon" type="text/css" href="media/favicon.ico">
 </head>
 <body>
+    <header>
+        <img src="media/zizek_3_header.jpg" id="img_contact">
+    </header>
+    <nav class="navbar navbar-inverse navbar-static-top fixed" role="navigation" style="position: sticky; top: 0">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuCurso">
+                        <span class="sr-only">Desplegar / Ocultar Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">Slavoj Zizek</a>
+                </div>
+                <!--Inicia opciones de menu -->
+                <div class="collapse navbar-collapse" id="menuCurso">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="index.html">Home</a></li>
+                    <li><a href="historia.html">Biography</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Links<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="articles.html">Articles</a></li>
+                                <li class=""><a href="#">Videos</a></li>
+                                <li class="divider"></li>
+                            </ul>
+                        </li>
+                    <li class="disabled"><a href="contacto.html">Contact</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <section class="col-md-3 border_6">
+                    <article>
+                        <h3>Contact</h3>
+                        <img src="media/foto_1.jpg" class="contact_img">
+                    </article>
+                </section>
+                <section class="col-md-5 border_6">
+                    <h3>For further information</h3>
+                    <div class="form-group">
+                        <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <i class="fas fa-arrow-alt-circle-up"></i><input class="form-control" type="text">
+                        </div>
+                        <label for="nombre">Correo:</label>
+                        <i class="fas fa-arrow-alt-circle-up"></i><input class="form-control" type="text">
+                        </div>
+                        <div class="form-group">
+                        <label>mensaje:</label>
+                        <textarea class="form-control" name="" id="" cols="30" rows="5" placeholder="Escribe tu texto"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-default">Enviar</button>
+                </section>
+                <aside class="col-md-3 hidden-xs hidden-sm border_3">
+                    <h3>Slavoj Žižek</h3>
+                    <div class="list-goup">
+                        <a href="historia.html" class="list-group-item bio_link">Biography</a>
+                        <a href="contacto.html" class="list-group-item bio_link disabled">Contact</a>
+                        <a href="multimedia.html" class="list-group-item bio_link">Videos</a>
+                        <a href="articles.html" class="list-group-item bio_link">Articles</a>
+                    </div>
+                    <h4>Quotes</h4>
+                    <p>“In other words, who dares to strike today,when having the security of a permanent job is itself becoming a privilege?” </p>
+                    <p>“Come on. I don't have any problem violating my own insights in practice.”</p>
+                    <p>“as soon as we renounce fiction and illusion, we lose reality itself; the moment we subtract fictions from reality, reality itself loses its discursive-logical consistency.”</p>
+                </aside>
+            </div>
+        </div>
+
+
+    <nav align="center">
+                    <div class="center-block">
+                        <ul class="pagination">
+                            <li class="multimedia"><a href="multimedia.html" style="border-color: black; background-color: white; color: black;">&laquo; <span class="sr-only">Anterior</span></a></li>
+                            <li class="active"><a href="historia.html" style="background-color: #FFDEAD; border-color: black; color: black">1</a></li>
+                            <li class="active"><a href="articles.html" style="background-color: #FFDEAD; border-color: black; color: black">2</a></li>
+                            <li class="active"><a href="multimedia.html" style="background-color: #FFDEAD; border-color: black; color: black">3</a></li>
+                            <li class="disabled"><a href="contacto.html" style="background-color: #FFDEAD; border-color: black; color: black">4</a></li>
+                            <li class=""><a href="index.html" style="border-color: black background-color: white; color: black;">&raquo; <span class="sr-only">Siguiente</span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+    <footer align="center"><h1>I WOULD PREFER NOT TO</h1></footer>
 
 	<script src="js/jquery.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
